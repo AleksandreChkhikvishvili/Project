@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?size=626&ext=jpg') center/cover no-repeat fixed;
+}
+
+.converter {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); 
+    max-width: 500px; 
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.converter h1 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-group div {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.input-group label,
+.input-group select {
+    width: 100%;
+}
+
+#amount-label,
+#amount {
+    width: 100%;
+}
+
+#amount {
+    margin: 0 auto; 
+}
+
+@media screen and (max-width: 768px) {
+    .converter {
+        max-width: 70%; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .input-group div {
+        width: 100%;
+    }
+}
